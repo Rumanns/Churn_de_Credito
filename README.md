@@ -22,7 +22,7 @@ print("Hello, World!")
 ```
 
 ## 3
-![Paleta de cores](../img/color_palett.png)
+![Paleta de cores](img/color_palette.png)
 
 
 ## 4

@@ -1,39 +1,52 @@
-## Churn de Cartão de Crédito
+## Credit Card Churn
 
-O seguinte modelo foi desenvolvido com o intuito de faze a previsão de churn com base nos dados já existentens de clientes.
+The following machine learning model was developed to predict the likelihood of credit card churn, using existing client data.
 
-Todo o projeto foi desenvolvido seguindo algumas etapas predeterminadas, listadas a seguir:
+The entire project was developed following some predetermined guidelines, listed below:
 
-1. **Aquisição de dados:** De duas fontes, com datasets de mesmo tamanho e suas descrições;
-2. **Preparação dos dados coletados:** Integração das fontes, limpeza, normalização, reescalonamento, padronização;
-3. **Análise dos dados:** Tipo de cada dado, categórico ou numérico, estatísticas dos dadosm, destacar outliers;
-4. **Variáveis mais relevantes:** Sexo, gênero, salário, score bancário;
-5. **Modelo de Machine Learning:** Clusterização, classificação, regressão, modelo tipo árvore de decisão.
+1. **Data Acquisition:** It was from two sources, but with datasets of the same size;
+2. **Extract, Transform and Load (ETL):** Data integration, cleaning, rescaling, pattern recognition;
+3. **Relevant Variables:** Sex, gender, salary, bank score;
+4. **Data Analysis:** Type of data (categorical or numeric), statistical analysis, outliers, normalization;
+5. **Machine Learning Models:** Clustering, classification, regression, decision trees.
 
-As etapas são necessárias pois são o pipeline de tratamento dos dados. No caso, o foco não é resolver o problema de churn, mas sim observar e identificar possíveis clientes que possam desistir do uso do crédito, com base nos seus dados.
+This guideline is important to the data treatment pipeline. In this case, the focus isn't on solving the churn problem, but on identifying possible clients who might churn their credit cards.
 
-## 1
-A aquisição dos dados se deu através do site kaggle.
+## Color Palette
+Below are the colors selected for this project:
+![Paleta de Cores](img/color_palette.png)
 
-## 2
+## 1 - Data acquisition:
+Data acquisition was from Kaggle, using the following link:
+https://www.kaggle.com/datasets/anandshaw2001/customer-churn-dataset
+
+All used data was saved at the same path on the computer.
+
+## 2 - Extract, Transform and Load:
+To import the data, I used the `pandas` library with this simple structure of it: `.read_csv('path')`.
+So, here is how the code looks:
+
+```
+#Reading the CSV archives
+df1 = pd.read_csv('../Dados/Customer-Churn-Records1.csv', delimiter=";")
+df2 = pd.read_csv('../Dados/Customer-Churn-Records2.csv', delimiter=";")
+df3 = pd.read_csv('../Dados/Customer-Churn-Records3.csv', delimiter=";")
+```
 ```python
 # Este é um bloco de código Python
 print("Hello, World!")
 ```
 
-## 3
-![Paleta de cores](img/color_palette.png)
+## 3 - Relevant Variables:
 
 
-## 4
+## 4 - Data Analysis:
 
 
-## 5
+## 5 - Machine Learning Models:
 
 
-
-## Ferramentas utilizadas:
-
+## Tools and Libraries Utilized:
 
 
 ## Contact me

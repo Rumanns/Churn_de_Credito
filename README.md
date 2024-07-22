@@ -59,13 +59,18 @@ Criando um gráfico do tipo "Scatter" para observar a proporção entre idade e 
 
 ## 5 - Machine Learning Models:
 **Criando o Modelo**
+
 No caso, são necessárias 4 variáveis no modelo. 2 de treino e 2 de teste:
+
 Isso acontece porque elas são mapeadas em um plano cartesiano, sendo de treino ou teste;
+
 Daí um ponto para treino no plano cartesiano tem uma posição em X e outra em y e outro ponto, para teste, tem uma posição em X e outra posição em y. Formando os 4 pontos necessários:
+
 X_train, y_train, X_test, y_test
 
 ## Tools and Libraries Utilized:
 **Tools:** Python, Jupyter, Anaconda, Git and GitHub.
+
 **Libraries:** Numpy, Pandas, matplotlib, seaborn, sklearn and tensorflow.
 
 ## Contact me
